@@ -1,0 +1,258 @@
+    1  sudo -i
+    2  free -h
+    3  sudo -i
+    4  sudo -i
+    5  sudi -i
+    6  sudo -i
+    7  cd /home/parallels/Documents/parsing2/
+    8  cat invalid_seeds.txt 
+    9  sudo -i
+   10  ifconfig
+   11  sudo -i
+   12  minikube tunne;
+   13  minikube tunnel
+   14  k expose my-test-deploy --type=LoadBalancer --port=9999 --target-port=80
+   15  kubectl expose my-test-deploy --type=LoadBalancer --port=9999 --target-port=80
+   16  kubectl get svc
+   17  kubectl get deploy
+   18  minikube kubectl expose my-test-deploy --type=LoadBalancer --port=9999 --target-port=80
+   19  kubectl expose my-test-deploy --type=LoadBalancer --port=9999 --target-port=80
+   20  kubectl get deploy
+   21  kubectl expose deploy my-test-deploy --type=LoadBalancer --port=9999 --target-port=80
+   22  kubectl get svc
+   23  kubectl describe my-test-deploy
+   24  kubectl describe deploy my-test-deploy
+   25  kubectl describe nodes
+   26  kubectl get svc
+   27  k delete svc my-test-deploy
+   28  kubectl delete svc my-test-deploy
+   29  sudo -i
+   30  minikube start
+   31  minikube version
+   32  docker run -p 8080:80 -d nginx
+   33  docker ps
+   34  curl localhost:8080
+   35  sudo netstat -tuln | grep 8080
+   36  sudo ufw status
+   37  docker stop c5b92c95c163
+   38  docker rm c5b92c95c163
+   39  docker ps
+   40  docker network ls
+   41  docker system prune -a
+   42  docker network prune
+   43  sudo systemctl restart docker
+   44  docker ps
+   45  docker run -d -p 8080:80 nginx
+   46  minikube version
+   47  minikube status
+   48  minikube start
+   49  docker ps
+   50  docker stop quizzical_heyrovsky 
+   51  minikube status
+   52  kubectl version
+   53  minikube kubectl
+   54  minikube kubectl version
+   55  minikube kubectl cluster-version
+   56  minikube kubectl cluster-info
+   57  alias k=kubectl
+   58  k get pods
+   59  k get nodes
+   60  k get namespaces
+   61  k get pods --namespace=kube-system
+   62  minikube ip
+   63  k get pods --namespace=kube-system
+   64  minikube kubectl cluster-info
+   65  docker ps
+   66  ssh -p 32768 root@127.0.0.1
+   67  minikube ssh
+   68  docker version 
+   69  minikube ssh
+   70  k get pods
+   71  k run nginx-pod --image=nginx
+   72  k get pods
+   73  k describe pod nginx-pod
+   74  minikube ssh
+   75  k get pods -o wide
+   76  k get nodes
+   77  k get nodes -o wide
+   78  k delete pod nginx-pod
+   79  k get pods -o wide
+   80  df -h
+   81  k run nginx2 --image=nginx
+   82  k get pods -o wide
+   83  k delete pod nginx2
+   84  k get pods -o wide
+   85  k create deployment my-Test-deploy --image=nginx 
+   86  k create deployment my-test-deploy --image=nginx 
+   87  k get pods -o wide
+   88  k describe deploy my-test-deploy
+   89  ip -a
+   90  ip a
+   91  k describe deploy my-test-deploy
+   92  k scale deploy my-test-deploy --replicas=3
+   93  k get pods -o wide
+   94  k scale deploy my-test-deploy --replicas=9
+   95  k get pods -o wide
+   96  k scale deploy my-test-deploy --replicas=4
+   97  k get pods -o wide
+   98  k describe deploy my-test-deploy
+   99  k scale deploy my-test-deploy --replicas=7
+  100  k describe deploy my-test-deploy
+  101  k get pods -o wide
+  102  k get depoly
+  103  k get deploy
+  104  k get services
+  105  k describe service kubernetes
+  106  k expose deploy my-test-deploy --port=8080
+  107  k get svc
+  108  k describe svc my-test-deploy
+  109  k delete svc my-test-deploy 
+  110  k expose deploy my-test-deploy --port=8080 --target-port=80
+  111  k describe svc my-test-deploy
+  112  curl 10.102.168.33:8080
+  113  minikube ssh
+  114  k delete svc my-test-deploy 
+  115  k get svc
+  116  k expose deploy my-test-deploy --type=NodePort --port=8888 --targer-port=80
+  117  k expose deploy my-test-deploy --type=NodePort --port=8888 --target-port=80
+  118  k get svc
+  119  k get nodes
+  120  k get deploy
+  121  k get deploy -o wide
+  122  minkube ip
+  123  minikube ip
+  124  minikube service my-test-deploy --url
+  125  k get svc
+  126  minikube tunnel
+  127  ls
+  128  minikube service my-test-deploy --url
+  129  k delete svc my-test-deploy
+  130  minikube tunnel
+  131  k delete deploy my-test-deploy
+  132  k get nodes
+  133  k get deploy
+  134  cd /home/parallels/Documents/
+  135  ls
+  136  mkdir k8s
+  137  cd k8s/
+  138  ls
+  139  mkdir k8s-web-hello && cd k8s-web-hello
+  140  ls
+  141  node --version
+  142  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+  143  sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+  144  sudo nvm install 23
+  145  node -v
+  146  nvm install 23
+  147  node -v
+  148  npm -v
+  149  cd /home/parallels/Documents/k8s/k8s-web-hello/
+  150  npm init -y
+  151  npm install express
+  152  ls 
+  153  touch index.mjs
+  154  ls
+  155  nano index.mjs 
+  156  npm start
+  157  npm start
+  158  sudo npm start
+  159  npm -v
+  160  cat /home/parallels/.npm/_logs/2024-12-22T22_32_42_424Z-debug-0.log
+  161  nano index.mjs 
+  162  nano package.json 
+  163  npm start
+  164  rm -rf node_modules/
+  165  ls
+  166  cd /home/parallels/Documents/k8s/k8s-web-hello/
+  167  ls 
+  168  npm init -y
+  169  ip a
+  170  cd /home/parallels/Documents/
+  171  ls
+  172  cd k8s
+  173  ls
+  174  cd k8s-web-hello/
+  175  ls
+  176  docker ps 
+  177  kubectl get deploy
+  178  service kubectl status
+  179  systemctl status kubectl
+  180  systemctl status minikube
+  181  minikube status
+  182  minikube start
+  183  kubectl get deploy
+  184  ls
+  185  nano Dockerfile
+  186  docker build . -t evgeny1307/k8s-web-hello:latest .-t evgeny1307/k8s-web-hello:1.0.0
+  187  docker build . -t evgeny1307/k8s-web-hello:latest -t evgeny1307/k8s-web-hello:1.0.0
+  188  docker ps
+  189  docker images
+  190  docker push evgeny1307/k8s-web-hello
+  191  docker info
+  192  sudo docker push evgeny1307/k8s-web-hello
+  193  ls
+  194  cat Dockerfile 
+  195  clear
+  196  kubectl create deploy k8s-web-hello --image=evgeny1307/k8s-web-hello:1.0.0
+  197  kubectl get pods
+  198  kubectl get nodes
+  199  kubectl get pods
+  200  docker ps
+  201  docker images
+  202  kubectl get pods
+  203  docker images
+  204  kubectl get pods
+  205  kubectl get nodes
+  206  kubectl get pods
+  207  kubectl delete deploy k8s-web-hello
+  208  kubectl get pods
+  209  kubectl get deploys
+  210  kubectl get deploy
+  211  clear
+  212  minikube kubectl create deploy k8s-node --image=evgeny1307/k8s-web-hello:latest
+  213  kubectl create deploy k8s-node --image=evgeny1307/k8s-web-hello:latest
+  214  kubectl get deploy
+  215  kubectl get pods
+  216  kubectl describe deploy
+  217  kubectl describe pod
+  218  minikube ssh
+  219  kubectl get pods -o wide
+  220  minikube ssh
+  221  k get deploy
+  222  kubectl get deploy
+  223  kubectl expose deploy k8s-node --type=LoadBalancer --port=3333 --target-port=3000
+  224  kubectl get svc 
+  225  curl localhost:3333
+  226  minikube ssh
+  227  curl 10.107.52.160:3333
+  228  k describe svc
+  229  kubectl describe svc
+  230  kubectl scale deploy k8s-node --replicas=6
+  231  kubectl get pods
+  232  nano index.mjs 
+  233  docker build . -t evgeny1307/k8s-web-hello:2.0.0 -t evgeny1307/k8s-web-hello:latest
+  234  docker push evgeny1307/evgeny1307/k8s-web-hello --all-tags
+  235  docker push evgeny1307/k8s-web-hello --all-tags
+  236  sudo docker push evgeny1307/k8s-web-hello --all-tags
+  237  docker images
+  238  k expose deploy k8s-node --replicas=8
+  239  kubectl expose deploy k8s-node --replicas=8
+  240  kubectl expose k8s-node --replicas=8
+  241  kubectl scale deploy k8s-node --replicas=8
+  242  clear
+  243  minikube ssh
+  244  k set image deploy k8s-node k8s-web-hello=evgeny1307/k8s-web-hello:2.0.0
+  245  kubectl set image deploy k8s-node k8s-web-hello=evgeny1307/k8s-web-hello:2.0.0
+  246  kubectl rollout status deploy k8s-node
+  247  kubectl get pods
+  248  kubectl describe deploy 
+  249  kubectl delete svc k8s-node
+  250  kubectl describe deploy 
+  251  kubectl delete deploy
+  252  kubectl delete deploy k8s-node
+  253  kubectl get pods
+  254  history 
+  255  history 2>> file_history.txt
+  256  ls
+  257  cat file_history.txt 
+  258  history >> file_history.txt 
